@@ -5,6 +5,7 @@
 """
 from controllers import get_collection
 from noodles.http import Response, ajax_response
+import time, md5
 
 
 def get_test_item(uid):
